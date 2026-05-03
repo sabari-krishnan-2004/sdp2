@@ -1,0 +1,16 @@
+# Large training files — not needed on cloud
+pretrained_global_model.h5
+global_model/
+dataset/
+__pycache__/
+*.pyc
+.env
+
+# FL scripts — not needed on cloud
+flower_client1.py
+flower_server1.py
+simulate_clients.py
+trained_model.py
+convert_to_tflite.py
+test_photo.jpg
+Duplicates/
