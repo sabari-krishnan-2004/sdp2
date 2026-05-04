@@ -1,16 +1,26 @@
-# Large training files — not needed on cloud
-pretrained_global_model.h5
-global_model/
-dataset/
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
 
-# FL scripts — not needed on cloud
-flower_client1.py
-flower_server1.py
-simulate_clients.py
-trained_model.py
-convert_to_tflite.py
-test_photo.jpg
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Local data and storage
+local_storage/
+dataset/
 Duplicates/
+system.log
+
+# Model files (Optional: keep if you want the default models in Git)
+# pretrained_global_model.h5
+# emotion_model.tflite
+
+# Large directories
+global_model/
+node_modules/
