@@ -3,4 +3,7 @@ uvicorn==0.30.0
 tflite-runtime==2.14.0
 numpy==1.26.4
 Pillow==10.3.0
-python-multipart==0.0.9
+python-multipart==0.0.9
+python-dotenv==1.0.1
+flwr==1.10.0
+tensorflow>=2.15.0

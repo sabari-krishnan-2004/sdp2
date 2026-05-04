@@ -1,0 +1,1038 @@
+2026-05-03 23:33:45,819 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-03 23:33:59,181 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-03 23:33:59,181 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-03 23:34:00,438 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:34:00,442 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-03 23:34:00,540 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-03 23:34:00,543 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:34:00,544 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-03 23:38:00,698 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-03 23:38:00,700 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-03 23:38:01,796 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:38:01,801 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-03 23:38:01,878 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-03 23:38:01,878 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:38:01,881 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-03 23:38:01,896 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-03 23:38:01,897 [INFO] flwr: [INIT]
+2026-05-03 23:38:01,897 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-03 23:38:01,898 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-03 23:38:01,899 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-03 23:38:01,899 [INFO] flwr: 
+2026-05-03 23:38:01,901 [INFO] flwr: [ROUND 1]
+2026-05-03 23:38:55,142 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-03 23:41:08,324 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-03 23:41:08,324 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-03 23:41:09,137 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:41:09,140 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-03 23:41:09,205 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-03 23:41:09,205 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:41:09,207 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-03 23:41:09,229 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-03 23:41:09,229 [INFO] flwr: [INIT]
+2026-05-03 23:41:09,229 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-03 23:41:09,230 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-03 23:41:09,230 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-03 23:41:09,230 [INFO] flwr: 
+2026-05-03 23:41:09,230 [INFO] flwr: [ROUND 1]
+2026-05-03 23:41:21,534 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-03 23:42:40,776 [INFO] FL-System: Loading data from: local_storage/user_1
+2026-05-03 23:42:40,810 [ERROR] FL-System: Failed to load data from local_storage/user_1: No images found in directory local_storage/user_1. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:42:40,810 [CRITICAL] FL-System: Client failed: No images found in directory local_storage/user_1. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:42:43,518 [INFO] FL-System: Loading data from: local_storage/user_2
+2026-05-03 23:42:43,542 [ERROR] FL-System: Failed to load data from local_storage/user_2: No images found in directory local_storage/user_2. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:42:43,543 [CRITICAL] FL-System: Client failed: No images found in directory local_storage/user_2. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:43:28,583 [INFO] FL-System: Loading data from: local_storage/user_1
+2026-05-03 23:43:28,617 [ERROR] FL-System: Failed to load data: No images found in directory local_storage/user_1. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:43:28,619 [CRITICAL] FL-System: Client failed: No images found in directory local_storage/user_1. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:43:32,036 [INFO] FL-System: Loading data from: local_storage/user_2
+2026-05-03 23:43:32,058 [ERROR] FL-System: Failed to load data: No images found in directory local_storage/user_2. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:43:32,058 [CRITICAL] FL-System: Client failed: No images found in directory local_storage/user_2. Allowed formats: ('.bmp', '.gif', '.jpeg', '.jpg', '.png')
+2026-05-03 23:44:01,770 [INFO] FL-System: Loading data manually from: local_storage/user_1
+2026-05-03 23:44:04,128 [INFO] FL-System: Loading data manually from: local_storage/user_2
+2026-05-03 23:44:04,181 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:44:04,186 [INFO] FL-System: Connecting to FL Server at 127.0.0.1:8080...
+2026-05-03 23:44:04,187 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:44:04,187 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:44:04,189 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-03 23:44:04,217 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-03 23:44:04,224 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-03 23:44:04,228 [DEBUG] flwr: ChannelConnectivity.CONNECTING
+2026-05-03 23:44:04,245 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-03 23:44:06,012 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:44:06,017 [INFO] FL-System: Connecting to FL Server at 127.0.0.1:8080...
+2026-05-03 23:44:06,017 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:44:06,017 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:44:06,019 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-03 23:44:06,026 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-03 23:44:06,028 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-03 23:44:06,029 [DEBUG] flwr: ChannelConnectivity.CONNECTING
+2026-05-03 23:44:06,029 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-03 23:44:06,030 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:44:06,321 [INFO] flwr: 
+2026-05-03 23:44:06,322 [INFO] flwr: Received: train message 4f12055c-87b8-42bb-b763-fe88e1d19480
+2026-05-03 23:44:06,325 [INFO] flwr: 
+2026-05-03 23:44:06,325 [INFO] flwr: Received: train message d277a8a3-9338-404a-8417-dbe28b2e9618
+2026-05-03 23:44:06,351 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:44:06,354 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:44:13,738 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:44:13,831 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:44:14,149 [INFO] flwr: Sent reply
+2026-05-03 23:44:14,162 [INFO] flwr: Sent reply
+2026-05-03 23:44:14,451 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:44:14,576 [WARNING] flwr: No fit_metrics_aggregation_fn provided
+2026-05-03 23:44:14,577 [INFO] FL-System: Round 1 completed! Aggregating weights...
+2026-05-03 23:44:15,648 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:44:15,883 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_1.h5
+2026-05-03 23:44:15,883 [INFO] FL-System: Generating TFLite model for round 1...
+2026-05-03 23:44:25,521 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmpna9himym\assets
+2026-05-03 23:44:30,761 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:44:30,767 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:44:31,006 [INFO] flwr: 
+2026-05-03 23:44:31,006 [INFO] flwr: Received: evaluate message a8099500-f3b5-4afc-90d5-c4a7324bde98
+2026-05-03 23:44:31,040 [INFO] flwr: 
+2026-05-03 23:44:31,040 [INFO] flwr: Received: evaluate message 36d7747f-caf2-4ed6-9490-92bf87463c35
+2026-05-03 23:44:33,474 [INFO] FL-System: Local Evaluation - Accuracy: 0.4000
+2026-05-03 23:44:33,478 [INFO] flwr: Sent reply
+2026-05-03 23:44:33,483 [INFO] FL-System: Local Evaluation - Accuracy: 0.6000
+2026-05-03 23:44:33,488 [INFO] flwr: Sent reply
+2026-05-03 23:44:33,495 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:44:33,497 [WARNING] flwr: No evaluate_metrics_aggregation_fn provided
+2026-05-03 23:44:33,498 [INFO] FL-System: METRICS | Round 1 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:44:33,499 [INFO] flwr: 
+2026-05-03 23:44:33,499 [INFO] flwr: [ROUND 2]
+2026-05-03 23:44:33,499 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:44:33,812 [INFO] flwr: 
+2026-05-03 23:44:33,814 [INFO] flwr: Received: train message 66d33346-9d22-4a46-89e1-3e70ae69c58c
+2026-05-03 23:44:33,845 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:44:33,849 [INFO] flwr: 
+2026-05-03 23:44:33,849 [INFO] flwr: Received: train message 8becbc8b-e57e-4631-8012-8e8459deb8e7
+2026-05-03 23:44:33,882 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:44:34,326 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:44:34,463 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:44:34,636 [INFO] flwr: Sent reply
+2026-05-03 23:44:34,659 [INFO] flwr: Sent reply
+2026-05-03 23:44:34,866 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:44:34,968 [INFO] FL-System: Round 2 completed! Aggregating weights...
+2026-05-03 23:44:36,071 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:44:36,261 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_2.h5
+2026-05-03 23:44:36,262 [INFO] FL-System: Generating TFLite model for round 2...
+2026-05-03 23:44:45,580 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmp5wrvxwjr\assets
+2026-05-03 23:44:50,226 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:44:50,238 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:44:50,514 [INFO] flwr: 
+2026-05-03 23:44:50,515 [INFO] flwr: Received: evaluate message 9f1bbaf1-815a-4b66-85f1-b4a21326045c
+2026-05-03 23:44:50,561 [INFO] flwr: 
+2026-05-03 23:44:50,562 [INFO] flwr: Received: evaluate message 2c1d8135-a868-4c49-96b0-acbf9882aa7c
+2026-05-03 23:44:50,830 [INFO] FL-System: Local Evaluation - Accuracy: 0.6000
+2026-05-03 23:44:50,832 [INFO] flwr: Sent reply
+2026-05-03 23:44:50,964 [INFO] FL-System: Local Evaluation - Accuracy: 0.4000
+2026-05-03 23:44:50,966 [INFO] flwr: Sent reply
+2026-05-03 23:44:50,976 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:44:50,977 [INFO] FL-System: METRICS | Round 2 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:44:50,977 [INFO] flwr: 
+2026-05-03 23:44:50,977 [INFO] flwr: [ROUND 3]
+2026-05-03 23:44:50,978 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:44:51,259 [INFO] flwr: 
+2026-05-03 23:44:51,260 [INFO] flwr: Received: train message e39212d3-7142-4a48-84b9-5ca9aac7e995
+2026-05-03 23:44:51,280 [INFO] flwr: 
+2026-05-03 23:44:51,280 [INFO] flwr: Received: train message e228efa1-923b-43f7-9fe6-5dda3fa2ca82
+2026-05-03 23:44:51,297 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:44:51,309 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:44:51,821 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:44:51,854 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:44:52,073 [INFO] flwr: Sent reply
+2026-05-03 23:44:52,084 [INFO] flwr: Sent reply
+2026-05-03 23:44:52,309 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:44:52,451 [INFO] FL-System: Round 3 completed! Aggregating weights...
+2026-05-03 23:44:53,800 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:44:53,986 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_3.h5
+2026-05-03 23:44:53,988 [INFO] FL-System: Generating TFLite model for round 3...
+2026-05-03 23:45:04,253 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmphhuzqdge\assets
+2026-05-03 23:45:09,540 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:45:09,551 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:45:09,749 [INFO] flwr: 
+2026-05-03 23:45:09,750 [INFO] flwr: Received: evaluate message 57b7e43f-092e-435f-874c-6235ccd43ed5
+2026-05-03 23:45:09,760 [INFO] flwr: 
+2026-05-03 23:45:09,760 [INFO] flwr: Received: evaluate message 08785bc3-8ad0-47b3-837e-5c5cadd0dd1b
+2026-05-03 23:45:09,953 [INFO] FL-System: Local Evaluation - Accuracy: 0.6000
+2026-05-03 23:45:09,956 [INFO] flwr: Sent reply
+2026-05-03 23:45:10,052 [INFO] FL-System: Local Evaluation - Accuracy: 0.4000
+2026-05-03 23:45:10,054 [INFO] flwr: Sent reply
+2026-05-03 23:45:10,061 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:45:10,062 [INFO] FL-System: METRICS | Round 3 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:45:10,063 [INFO] flwr: 
+2026-05-03 23:45:10,063 [INFO] flwr: [ROUND 4]
+2026-05-03 23:45:10,064 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:45:10,317 [INFO] flwr: 
+2026-05-03 23:45:10,317 [INFO] flwr: Received: train message 9adbe486-1b5b-414a-9528-ae61828804e4
+2026-05-03 23:45:10,321 [INFO] flwr: 
+2026-05-03 23:45:10,322 [INFO] flwr: Received: train message cc55a187-da78-4e96-ba58-d68cd837a888
+2026-05-03 23:45:10,345 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:45:10,350 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:45:10,750 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:45:10,834 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:45:10,965 [INFO] flwr: Sent reply
+2026-05-03 23:45:10,995 [INFO] flwr: Sent reply
+2026-05-03 23:45:11,183 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:45:11,278 [INFO] FL-System: Round 4 completed! Aggregating weights...
+2026-05-03 23:45:12,517 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:45:12,703 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_4.h5
+2026-05-03 23:45:12,703 [INFO] FL-System: Generating TFLite model for round 4...
+2026-05-03 23:45:21,974 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmphipe_nqp\assets
+2026-05-03 23:45:26,142 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:45:26,155 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:45:26,341 [INFO] flwr: 
+2026-05-03 23:45:26,341 [INFO] flwr: Received: evaluate message fb1cc859-3162-4b2a-84aa-dd8031f4da3f
+2026-05-03 23:45:26,358 [INFO] flwr: 
+2026-05-03 23:45:26,359 [INFO] flwr: Received: evaluate message 9a328cf7-d4d8-4139-9116-cef71fa21113
+2026-05-03 23:45:26,611 [INFO] FL-System: Local Evaluation - Accuracy: 0.4000
+2026-05-03 23:45:26,617 [INFO] FL-System: Local Evaluation - Accuracy: 0.6000
+2026-05-03 23:45:26,613 [INFO] flwr: Sent reply
+2026-05-03 23:45:26,619 [INFO] flwr: Sent reply
+2026-05-03 23:45:26,629 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:45:26,630 [INFO] FL-System: METRICS | Round 4 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:45:26,631 [INFO] flwr: 
+2026-05-03 23:45:26,631 [INFO] flwr: [ROUND 5]
+2026-05-03 23:45:26,631 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:45:26,896 [INFO] flwr: 
+2026-05-03 23:45:26,897 [INFO] flwr: Received: train message ce8eaac8-8c5a-402a-8fce-ccf3216ba650
+2026-05-03 23:45:26,917 [INFO] flwr: 
+2026-05-03 23:45:26,918 [INFO] flwr: Received: train message bb8a0cd5-0a80-44fa-8617-864f7ff921b6
+2026-05-03 23:45:26,930 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:45:26,941 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:45:27,508 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:45:27,552 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:45:27,787 [INFO] flwr: Sent reply
+2026-05-03 23:45:27,869 [INFO] flwr: Sent reply
+2026-05-03 23:45:28,070 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:45:28,201 [INFO] FL-System: Round 5 completed! Aggregating weights...
+2026-05-03 23:45:29,336 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:45:29,512 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_5.h5
+2026-05-03 23:45:29,512 [INFO] FL-System: Generating TFLite model for round 5...
+2026-05-03 23:45:38,313 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmpqw_aywze\assets
+2026-05-03 23:45:42,297 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:45:42,306 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:45:42,516 [INFO] flwr: 
+2026-05-03 23:45:42,516 [INFO] flwr: Received: evaluate message 007bbde0-ab7f-4b3a-a344-498d85d37b47
+2026-05-03 23:45:42,546 [INFO] flwr: 
+2026-05-03 23:45:42,546 [INFO] flwr: Received: evaluate message fc49528b-5cf4-44a5-92ac-f242255b0ea7
+2026-05-03 23:45:42,789 [INFO] FL-System: Local Evaluation - Accuracy: 0.4000
+2026-05-03 23:45:42,792 [INFO] flwr: Sent reply
+2026-05-03 23:45:42,856 [INFO] FL-System: Local Evaluation - Accuracy: 0.6000
+2026-05-03 23:45:42,857 [INFO] flwr: Sent reply
+2026-05-03 23:45:42,864 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:45:42,865 [INFO] FL-System: METRICS | Round 5 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:45:42,871 [INFO] flwr: 
+2026-05-03 23:45:42,872 [INFO] flwr: [SUMMARY]
+2026-05-03 23:45:42,872 [INFO] flwr: Run finished 5 round(s) in 273.64s
+2026-05-03 23:45:42,872 [INFO] flwr: 	History (loss, distributed):
+2026-05-03 23:45:42,872 [INFO] flwr: 		round 1: 1.1035237312316895
+2026-05-03 23:45:42,873 [INFO] flwr: 		round 2: 1.2574393153190613
+2026-05-03 23:45:42,873 [INFO] flwr: 		round 3: 0.7634161710739136
+2026-05-03 23:45:42,873 [INFO] flwr: 		round 4: 0.9615828990936279
+2026-05-03 23:45:42,873 [INFO] flwr: 		round 5: 0.817322164773941
+2026-05-03 23:45:42,874 [INFO] flwr: 
+2026-05-03 23:45:42,881 [INFO] flwr: 
+2026-05-03 23:45:42,881 [INFO] flwr: Received: reconnect message be3ad88c-3512-416f-9fb1-7c663d6536d3
+2026-05-03 23:45:42,883 [INFO] flwr: 
+2026-05-03 23:45:42,884 [INFO] flwr: Received: reconnect message 52c712e6-666d-4733-9b3c-900dabc122d8
+2026-05-03 23:45:42,891 [DEBUG] flwr: gRPC channel closed
+2026-05-03 23:45:42,891 [INFO] flwr: Disconnect and shut down
+2026-05-03 23:45:42,893 [DEBUG] flwr: gRPC channel closed
+2026-05-03 23:45:42,894 [INFO] flwr: Disconnect and shut down
+2026-05-03 23:46:10,264 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-03 23:46:10,265 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-03 23:46:11,056 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:46:11,060 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-03 23:46:11,118 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-03 23:46:11,118 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:46:11,119 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-03 23:46:11,126 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-03 23:46:11,126 [INFO] flwr: [INIT]
+2026-05-03 23:46:11,126 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-03 23:46:11,128 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-03 23:46:11,128 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-03 23:46:11,129 [INFO] flwr: 
+2026-05-03 23:46:11,129 [INFO] flwr: [ROUND 1]
+2026-05-03 23:47:27,718 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-03 23:47:47,439 [INFO] FL-System: Loading data manually from: local_storage/user_1
+2026-05-03 23:47:50,108 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:47:50,115 [INFO] FL-System: Connecting to FL Server at 127.0.0.1:8080...
+2026-05-03 23:47:50,115 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:47:50,118 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:47:50,121 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-03 23:47:50,133 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-03 23:47:50,137 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-03 23:47:50,140 [DEBUG] flwr: ChannelConnectivity.CONNECTING
+2026-05-03 23:47:50,140 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-03 23:47:51,302 [INFO] FL-System: Loading data manually from: local_storage/user_2
+2026-05-03 23:47:53,208 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-03 23:47:53,212 [INFO] FL-System: Connecting to FL Server at 127.0.0.1:8080...
+2026-05-03 23:47:53,213 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:47:53,214 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-03 23:47:53,216 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-03 23:47:53,227 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-03 23:47:53,230 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-03 23:47:53,231 [DEBUG] flwr: ChannelConnectivity.CONNECTING
+2026-05-03 23:47:53,232 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-03 23:47:53,232 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:47:53,409 [INFO] flwr: 
+2026-05-03 23:47:53,409 [INFO] flwr: Received: train message ceb5cb7d-4de1-4dba-b0d5-03e87e0ae206
+2026-05-03 23:47:53,417 [INFO] flwr: 
+2026-05-03 23:47:53,417 [INFO] flwr: Received: train message 3bbdf089-68af-4c47-8cbd-cc8aab99eef3
+2026-05-03 23:47:53,432 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:47:53,438 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:00,256 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:00,331 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:00,562 [INFO] flwr: Sent reply
+2026-05-03 23:48:00,599 [INFO] flwr: Sent reply
+2026-05-03 23:48:00,816 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:48:00,909 [WARNING] flwr: No fit_metrics_aggregation_fn provided
+2026-05-03 23:48:00,911 [INFO] FL-System: Round 1 completed! Aggregating weights...
+2026-05-03 23:48:01,933 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:48:02,108 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_1.h5
+2026-05-03 23:48:02,108 [INFO] FL-System: Generating TFLite model for round 1...
+2026-05-03 23:48:10,086 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmpooq17w23\assets
+2026-05-03 23:48:14,094 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:48:14,099 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:48:14,337 [INFO] flwr: 
+2026-05-03 23:48:14,337 [INFO] flwr: 
+2026-05-03 23:48:14,338 [INFO] flwr: Received: evaluate message abc2f748-1d68-4380-a65f-88bb194238b6
+2026-05-03 23:48:14,338 [INFO] flwr: Received: evaluate message 14c731f4-f244-4a6c-b989-2c43750cd81f
+2026-05-03 23:48:16,564 [INFO] FL-System: Local Evaluation - Accuracy: 0.4286
+2026-05-03 23:48:16,567 [INFO] flwr: Sent reply
+2026-05-03 23:48:16,738 [INFO] FL-System: Local Evaluation - Accuracy: 0.5714
+2026-05-03 23:48:16,744 [INFO] flwr: Sent reply
+2026-05-03 23:48:16,753 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:48:16,755 [WARNING] flwr: No evaluate_metrics_aggregation_fn provided
+2026-05-03 23:48:16,757 [INFO] FL-System: METRICS | Round 1 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:48:16,758 [INFO] flwr: 
+2026-05-03 23:48:16,758 [INFO] flwr: [ROUND 2]
+2026-05-03 23:48:16,759 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:48:17,024 [INFO] flwr: 
+2026-05-03 23:48:17,024 [INFO] flwr: Received: train message 395cc55e-6ca6-4d23-bbc8-befc5d6b09e2
+2026-05-03 23:48:17,045 [INFO] flwr: 
+2026-05-03 23:48:17,045 [INFO] flwr: Received: train message 216f0c2d-df69-4d72-8db3-f62c65e42f03
+2026-05-03 23:48:17,046 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:17,071 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:17,516 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:17,646 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:17,768 [INFO] flwr: Sent reply
+2026-05-03 23:48:17,812 [INFO] flwr: Sent reply
+2026-05-03 23:48:17,978 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:48:18,047 [INFO] FL-System: Round 2 completed! Aggregating weights...
+2026-05-03 23:48:18,812 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:48:18,951 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_2.h5
+2026-05-03 23:48:18,951 [INFO] FL-System: Generating TFLite model for round 2...
+2026-05-03 23:48:27,098 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmpiabifh4c\assets
+2026-05-03 23:48:31,902 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:48:31,914 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:48:32,119 [INFO] flwr: 
+2026-05-03 23:48:32,119 [INFO] flwr: Received: evaluate message 0eb78f21-8204-4607-bfb5-cb1dec16abce
+2026-05-03 23:48:32,126 [INFO] flwr: 
+2026-05-03 23:48:32,126 [INFO] flwr: Received: evaluate message e4948cc4-2fdd-4f09-95e4-f6f319a6b587
+2026-05-03 23:48:32,382 [INFO] FL-System: Local Evaluation - Accuracy: 0.5714
+2026-05-03 23:48:32,387 [INFO] flwr: Sent reply
+2026-05-03 23:48:32,411 [INFO] FL-System: Local Evaluation - Accuracy: 0.4286
+2026-05-03 23:48:32,413 [INFO] flwr: Sent reply
+2026-05-03 23:48:32,421 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:48:32,422 [INFO] FL-System: METRICS | Round 2 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:48:32,424 [INFO] flwr: 
+2026-05-03 23:48:32,424 [INFO] flwr: [ROUND 3]
+2026-05-03 23:48:32,424 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:48:32,690 [INFO] flwr: 
+2026-05-03 23:48:32,690 [INFO] flwr: Received: train message 52cb45fe-cc5f-4b39-8dd7-6cd927908ef0
+2026-05-03 23:48:32,701 [INFO] flwr: 
+2026-05-03 23:48:32,702 [INFO] flwr: Received: train message 7c0c2bbe-2285-43b7-afaf-ebb95aa6bfb6
+2026-05-03 23:48:32,716 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:32,729 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:33,202 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:33,299 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:33,411 [INFO] flwr: Sent reply
+2026-05-03 23:48:33,457 [INFO] flwr: Sent reply
+2026-05-03 23:48:33,623 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:48:33,732 [INFO] FL-System: Round 3 completed! Aggregating weights...
+2026-05-03 23:48:34,812 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:48:34,995 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_3.h5
+2026-05-03 23:48:34,997 [INFO] FL-System: Generating TFLite model for round 3...
+2026-05-03 23:48:42,487 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmp8q5k3nn4\assets
+2026-05-03 23:48:46,553 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:48:46,563 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:48:46,771 [INFO] flwr: 
+2026-05-03 23:48:46,771 [INFO] flwr: Received: evaluate message 09dc41ce-27b6-4d8a-a8f1-27b166da269d
+2026-05-03 23:48:46,773 [INFO] flwr: 
+2026-05-03 23:48:46,773 [INFO] flwr: Received: evaluate message a08f4c7b-4043-4374-8853-dda2dad540d2
+2026-05-03 23:48:47,032 [INFO] FL-System: Local Evaluation - Accuracy: 0.4286
+2026-05-03 23:48:47,036 [INFO] FL-System: Local Evaluation - Accuracy: 0.5714
+2026-05-03 23:48:47,035 [INFO] flwr: Sent reply
+2026-05-03 23:48:47,037 [INFO] flwr: Sent reply
+2026-05-03 23:48:47,045 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:48:47,047 [INFO] FL-System: METRICS | Round 3 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:48:47,048 [INFO] flwr: 
+2026-05-03 23:48:47,049 [INFO] flwr: [ROUND 4]
+2026-05-03 23:48:47,050 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:48:47,283 [INFO] flwr: 
+2026-05-03 23:48:47,283 [INFO] flwr: Received: train message d4a41aa6-c463-4102-ac53-b8fa9396d35f
+2026-05-03 23:48:47,284 [INFO] flwr: 
+2026-05-03 23:48:47,284 [INFO] flwr: Received: train message 7a6d109c-4422-4be5-adca-fcb43a7c0801
+2026-05-03 23:48:47,304 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:47,307 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:48:47,767 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:47,780 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:48:47,925 [INFO] flwr: Sent reply
+2026-05-03 23:48:47,928 [INFO] flwr: Sent reply
+2026-05-03 23:48:48,114 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:48:48,194 [INFO] FL-System: Round 4 completed! Aggregating weights...
+2026-05-03 23:48:49,129 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:48:49,280 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_4.h5
+2026-05-03 23:48:49,280 [INFO] FL-System: Generating TFLite model for round 4...
+2026-05-03 23:48:56,778 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmp95z96o1m\assets
+2026-05-03 23:49:01,509 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:49:01,520 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:49:01,752 [INFO] flwr: 
+2026-05-03 23:49:01,753 [INFO] flwr: Received: evaluate message d9279746-3679-4a00-8f1f-9d0bd867dca2
+2026-05-03 23:49:01,775 [INFO] flwr: 
+2026-05-03 23:49:01,776 [INFO] flwr: Received: evaluate message 88064718-49f1-48e6-b783-3f3324e45cac
+2026-05-03 23:49:01,990 [INFO] FL-System: Local Evaluation - Accuracy: 0.4286
+2026-05-03 23:49:01,994 [INFO] flwr: Sent reply
+2026-05-03 23:49:02,067 [INFO] FL-System: Local Evaluation - Accuracy: 0.5714
+2026-05-03 23:49:02,067 [INFO] flwr: Sent reply
+2026-05-03 23:49:02,075 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:49:02,076 [INFO] FL-System: METRICS | Round 4 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:49:02,078 [INFO] flwr: 
+2026-05-03 23:49:02,078 [INFO] flwr: [ROUND 5]
+2026-05-03 23:49:02,078 [INFO] flwr: configure_fit: strategy sampled 2 clients (out of 2)
+2026-05-03 23:49:02,302 [INFO] flwr: 
+2026-05-03 23:49:02,303 [INFO] flwr: Received: train message b5d46785-e001-4dbd-9932-3ed1d9a2fe74
+2026-05-03 23:49:02,307 [INFO] flwr: 
+2026-05-03 23:49:02,308 [INFO] flwr: Received: train message 0db0b515-59c3-4d7a-bb21-84d768f55d2b
+2026-05-03 23:49:02,324 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:49:02,329 [INFO] FL-System: Received global weights. Starting local training...
+2026-05-03 23:49:02,794 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:49:02,838 [INFO] FL-System: Local training complete. Sending updated weights.
+2026-05-03 23:49:02,965 [INFO] flwr: Sent reply
+2026-05-03 23:49:02,990 [INFO] flwr: Sent reply
+2026-05-03 23:49:03,158 [INFO] flwr: aggregate_fit: received 2 results and 0 failures
+2026-05-03 23:49:03,234 [INFO] FL-System: Round 5 completed! Aggregating weights...
+2026-05-03 23:49:04,101 [WARNING] absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2026-05-03 23:49:04,245 [INFO] FL-System: Global model saved to: ./global_model\federated_model_round_5.h5
+2026-05-03 23:49:04,245 [INFO] FL-System: Generating TFLite model for round 5...
+2026-05-03 23:49:12,068 [INFO] tensorflow: Assets written to: C:\Users\psaba\AppData\Local\Temp\tmpfd1tw2kw\assets
+2026-05-03 23:49:16,136 [INFO] FL-System: Successfully updated emotion_model.tflite
+2026-05-03 23:49:16,142 [INFO] flwr: configure_evaluate: strategy sampled 2 clients (out of 2)
+2026-05-03 23:49:16,355 [INFO] flwr: 
+2026-05-03 23:49:16,356 [INFO] flwr: Received: evaluate message 8ebad488-7f5c-4d24-b59b-85c201f67734
+2026-05-03 23:49:16,367 [INFO] flwr: 
+2026-05-03 23:49:16,368 [INFO] flwr: Received: evaluate message ceb33cb0-d6cb-4dbd-ab23-78af087ce031
+2026-05-03 23:49:16,614 [INFO] FL-System: Local Evaluation - Accuracy: 0.4286
+2026-05-03 23:49:16,616 [INFO] flwr: Sent reply
+2026-05-03 23:49:16,621 [INFO] FL-System: Local Evaluation - Accuracy: 0.5714
+2026-05-03 23:49:16,621 [INFO] flwr: Sent reply
+2026-05-03 23:49:16,628 [INFO] flwr: aggregate_evaluate: received 2 results and 0 failures
+2026-05-03 23:49:16,631 [INFO] FL-System: METRICS | Round 5 | Accuracy: 0.5000 | Clients: 2
+2026-05-03 23:49:16,635 [INFO] flwr: 
+2026-05-03 23:49:16,636 [INFO] flwr: [SUMMARY]
+2026-05-03 23:49:16,637 [INFO] flwr: Run finished 5 round(s) in 185.50s
+2026-05-03 23:49:16,638 [INFO] flwr: 	History (loss, distributed):
+2026-05-03 23:49:16,638 [INFO] flwr: 		round 1: 1.1017098426818848
+2026-05-03 23:49:16,639 [INFO] flwr: 		round 2: 1.2651665210723877
+2026-05-03 23:49:16,639 [INFO] flwr: 		round 3: 0.7534732520580292
+2026-05-03 23:49:16,639 [INFO] flwr: 		round 4: 0.9743707180023193
+2026-05-03 23:49:16,640 [INFO] flwr: 		round 5: 0.7997311353683472
+2026-05-03 23:49:16,640 [INFO] flwr: 
+2026-05-03 23:49:16,645 [INFO] flwr: 
+2026-05-03 23:49:16,646 [INFO] flwr: Received: reconnect message 8932d948-48f8-4f35-8261-404c918cad96
+2026-05-03 23:49:16,649 [INFO] flwr: 
+2026-05-03 23:49:16,649 [INFO] flwr: Received: reconnect message fb4a4076-c959-4aa7-a732-092fccb2cc39
+2026-05-03 23:49:16,655 [DEBUG] flwr: gRPC channel closed
+2026-05-03 23:49:16,655 [DEBUG] flwr: gRPC channel closed
+2026-05-03 23:49:16,655 [INFO] flwr: Disconnect and shut down
+2026-05-03 23:49:16,656 [INFO] flwr: Disconnect and shut down
+2026-05-04 00:02:24,530 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-04 00:02:24,530 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-04 00:02:25,289 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-04 00:02:25,293 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-04 00:02:25,346 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-04 00:02:25,346 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:02:25,348 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-04 00:02:25,356 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-04 00:02:25,356 [INFO] flwr: [INIT]
+2026-05-04 00:02:25,358 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-04 00:02:25,358 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-04 00:02:25,358 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-04 00:02:25,358 [INFO] flwr: 
+2026-05-04 00:02:25,358 [INFO] flwr: [ROUND 1]
+2026-05-04 00:03:03,160 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-04 00:10:20,241 [INFO] FL-System: Received weight sync request from test_device_01 (10 samples)
+2026-05-04 00:10:20,242 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:10:20,243 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:10:20,245 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-04 00:10:20,252 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-04 00:10:20,255 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-04 00:10:20,255 [DEBUG] flwr: ChannelConnectivity.CONNECTING
+2026-05-04 00:10:20,257 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-04 00:14:06,725 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-04 00:14:06,936 [DEBUG] flwr: gRPC channel closed
+2026-05-04 00:14:06,937 [ERROR] FL-System: Failed to bridge weights to Flower server: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "IOCP/Socket: Connection reset (An existing connection was forcibly closed by the remote host.
+ -- 10054)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:14, grpc_message:"IOCP/Socket: Connection reset (An existing connection was forcibly closed by the remote host.\r\n -- 10054)"}"
+>
+2026-05-04 00:15:18,398 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-04 00:15:18,399 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-04 00:15:19,543 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-04 00:15:19,548 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-04 00:15:19,630 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-04 00:15:19,630 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:15:19,632 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-04 00:15:19,653 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-04 00:15:19,654 [INFO] flwr: [INIT]
+2026-05-04 00:15:19,656 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-04 00:15:19,656 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-04 00:15:19,656 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-04 00:15:19,657 [INFO] flwr: 
+2026-05-04 00:15:19,658 [INFO] flwr: [ROUND 1]
+2026-05-04 00:15:36,926 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-04 00:16:41,099 [INFO] FL-System: Received weight sync request from test_device_01 (10 samples)
+2026-05-04 00:16:41,099 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:16:41,101 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:16:41,104 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-04 00:16:41,116 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-04 00:16:41,118 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-04 00:16:41,118 [DEBUG] flwr: ChannelConnectivity.CONNECTING
+2026-05-04 00:16:41,119 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-04 00:24:32,082 [ERROR] grpc._server: Exception iterating responses: 
+Traceback (most recent call last):
+  File "C:\Users\psaba\AppData\Local\Programs\Python\Python311\Lib\site-packages\grpc\_server.py", line 652, in _take_response_from_response_iterator
+    return next(response_iterator), True
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\psaba\AppData\Local\Programs\Python\Python311\Lib\site-packages\flwr\server\superlink\fleet\grpc_bidi\flower_service_servicer.py", line 118, in Join
+    ins_wrapper: InsWrapper = next(ins_wrapper_iterator)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\psaba\AppData\Local\Programs\Python\Python311\Lib\site-packages\flwr\server\superlink\fleet\grpc_bidi\grpc_bridge.py", line 165, in ins_wrapper_iterator
+    self._raise_if_closed()
+  File "C:\Users\psaba\AppData\Local\Programs\Python\Python311\Lib\site-packages\flwr\server\superlink\fleet\grpc_bidi\grpc_bridge.py", line 81, in _raise_if_closed
+    raise GrpcBridgeClosed()
+flwr.server.superlink.fleet.grpc_bidi.grpc_bridge.GrpcBridgeClosed
+2026-05-04 00:24:40,892 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-04 00:24:40,892 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-04 00:24:42,476 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-04 00:24:42,481 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-04 00:24:42,592 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-04 00:24:42,593 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:24:42,594 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-04 00:24:42,610 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-04 00:24:42,611 [INFO] flwr: [INIT]
+2026-05-04 00:24:42,611 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-04 00:24:42,611 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-04 00:24:42,611 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-04 00:24:42,611 [INFO] flwr: 
+2026-05-04 00:24:42,611 [INFO] flwr: [ROUND 1]
+2026-05-04 00:24:54,952 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-04 00:25:21,053 [INFO] FL-System: Received weight sync request from test_device (10 samples)
+2026-05-04 00:25:21,053 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:25:21,053 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:25:21,057 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-04 00:25:21,066 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-04 00:25:21,069 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-04 00:25:21,070 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-04 00:25:21,071 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:21,274 [INFO] flwr: 
+2026-05-04 00:25:21,274 [INFO] flwr: Received: train message c213369e-21ed-45e1-9457-fd790388e648
+2026-05-04 00:25:21,298 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:25:21,300 [INFO] flwr: Sent reply
+2026-05-04 00:25:21,302 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:25:21,303 [WARNING] flwr: No fit_metrics_aggregation_fn provided
+2026-05-04 00:25:21,303 [INFO] FL-System: Round 1 completed! Aggregating weights...
+2026-05-04 00:25:22,212 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:25:22,214 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:22,217 [INFO] flwr: 
+2026-05-04 00:25:22,217 [INFO] flwr: Received: evaluate message 982425eb-7a0b-4c3b-a81a-82992282f542
+2026-05-04 00:25:22,218 [INFO] flwr: Sent reply
+2026-05-04 00:25:22,219 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:25:22,219 [WARNING] flwr: No evaluate_metrics_aggregation_fn provided
+2026-05-04 00:25:22,220 [INFO] FL-System: METRICS | Round 1 | Accuracy: 0.9000 | Clients: 1
+2026-05-04 00:25:22,220 [INFO] flwr: 
+2026-05-04 00:25:22,220 [INFO] flwr: [ROUND 2]
+2026-05-04 00:25:22,220 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:22,223 [INFO] flwr: 
+2026-05-04 00:25:22,223 [INFO] flwr: Received: train message a223b83d-4d66-4f5c-bebe-ab2927e5f5a6
+2026-05-04 00:25:22,224 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:25:22,224 [INFO] flwr: Sent reply
+2026-05-04 00:25:22,227 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:25:22,228 [INFO] FL-System: Round 2 completed! Aggregating weights...
+2026-05-04 00:25:23,091 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_1' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:25:23,091 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:23,093 [INFO] flwr: 
+2026-05-04 00:25:23,094 [INFO] flwr: Received: evaluate message 7ec0ae36-c6c7-4592-92d0-a93f859b7dd6
+2026-05-04 00:25:23,095 [INFO] flwr: Sent reply
+2026-05-04 00:25:23,096 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:25:23,097 [INFO] FL-System: METRICS | Round 2 | Accuracy: 0.9000 | Clients: 1
+2026-05-04 00:25:23,097 [INFO] flwr: 
+2026-05-04 00:25:23,097 [INFO] flwr: [ROUND 3]
+2026-05-04 00:25:23,097 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:23,098 [INFO] flwr: 
+2026-05-04 00:25:23,099 [INFO] flwr: Received: train message be6f0f20-d02d-43e4-97a7-2d2c55b7de52
+2026-05-04 00:25:23,099 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:25:23,100 [INFO] flwr: Sent reply
+2026-05-04 00:25:23,100 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:25:23,101 [INFO] FL-System: Round 3 completed! Aggregating weights...
+2026-05-04 00:25:24,128 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_2' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:25:24,129 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:24,132 [INFO] flwr: 
+2026-05-04 00:25:24,132 [INFO] flwr: Received: evaluate message 2afb2a01-a01f-4000-b8cc-df8f85271dc1
+2026-05-04 00:25:24,133 [INFO] flwr: Sent reply
+2026-05-04 00:25:24,135 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:25:24,136 [INFO] FL-System: METRICS | Round 3 | Accuracy: 0.9000 | Clients: 1
+2026-05-04 00:25:24,136 [INFO] flwr: 
+2026-05-04 00:25:24,136 [INFO] flwr: [ROUND 4]
+2026-05-04 00:25:24,136 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:24,138 [INFO] flwr: 
+2026-05-04 00:25:24,138 [INFO] flwr: Received: train message f71631a3-e984-4d5c-befa-05b82809ec24
+2026-05-04 00:25:24,139 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:25:24,140 [INFO] flwr: Sent reply
+2026-05-04 00:25:24,142 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:25:24,143 [INFO] FL-System: Round 4 completed! Aggregating weights...
+2026-05-04 00:25:25,286 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_3' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:25:25,287 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:25,289 [INFO] flwr: 
+2026-05-04 00:25:25,289 [INFO] flwr: Received: evaluate message d778103f-3d30-4773-ba4d-358f7f90e499
+2026-05-04 00:25:25,290 [INFO] flwr: Sent reply
+2026-05-04 00:25:25,292 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:25:25,293 [INFO] FL-System: METRICS | Round 4 | Accuracy: 0.9000 | Clients: 1
+2026-05-04 00:25:25,293 [INFO] flwr: 
+2026-05-04 00:25:25,293 [INFO] flwr: [ROUND 5]
+2026-05-04 00:25:25,293 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:25,296 [INFO] flwr: 
+2026-05-04 00:25:25,297 [INFO] flwr: Received: train message b2413560-bdac-4f14-adf4-259e0143ff1c
+2026-05-04 00:25:25,297 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:25:25,298 [INFO] flwr: Sent reply
+2026-05-04 00:25:25,299 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:25:25,300 [INFO] FL-System: Round 5 completed! Aggregating weights...
+2026-05-04 00:25:26,633 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_4' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:25:26,633 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:25:26,635 [INFO] flwr: 
+2026-05-04 00:25:26,635 [INFO] flwr: Received: evaluate message 6c965e64-5189-4447-af58-1364258feff1
+2026-05-04 00:25:26,637 [INFO] flwr: Sent reply
+2026-05-04 00:25:26,638 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:25:26,639 [INFO] FL-System: METRICS | Round 5 | Accuracy: 0.9000 | Clients: 1
+2026-05-04 00:25:26,640 [INFO] flwr: 
+2026-05-04 00:25:26,640 [INFO] flwr: [SUMMARY]
+2026-05-04 00:25:26,640 [INFO] flwr: Run finished 5 round(s) in 44.03s
+2026-05-04 00:25:26,640 [INFO] flwr: 	History (loss, distributed):
+2026-05-04 00:25:26,641 [INFO] flwr: 		round 1: 0.0
+2026-05-04 00:25:26,641 [INFO] flwr: 		round 2: 0.0
+2026-05-04 00:25:26,642 [INFO] flwr: 		round 3: 0.0
+2026-05-04 00:25:26,642 [INFO] flwr: 		round 4: 0.0
+2026-05-04 00:25:26,642 [INFO] flwr: 		round 5: 0.0
+2026-05-04 00:25:26,642 [INFO] flwr: 
+2026-05-04 00:25:26,645 [INFO] flwr: 
+2026-05-04 00:25:26,645 [INFO] flwr: Received: reconnect message 9795b92c-ef9f-4543-947d-2eef13f8ee39
+2026-05-04 00:25:26,649 [DEBUG] flwr: gRPC channel closed
+2026-05-04 00:25:26,649 [INFO] flwr: Disconnect and shut down
+2026-05-04 00:27:06,187 [INFO] FL-System: Starting Federated Emotion Recognition Server...
+2026-05-04 00:27:06,188 [INFO] FL-System: Loading warm start model: pretrained_global_model.h5
+2026-05-04 00:27:06,960 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-04 00:27:06,964 [WARNING] absl: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-05-04 00:27:07,017 [INFO] FL-System: FL Server listening on 127.0.0.1:8080
+2026-05-04 00:27:07,017 [WARNING] flwr: DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:27:07,017 [INFO] flwr: Starting Flower server, config: num_rounds=5, no round_timeout
+2026-05-04 00:27:07,028 [INFO] flwr: Flower ECE: gRPC server running (5 rounds), SSL is disabled
+2026-05-04 00:27:07,029 [INFO] flwr: [INIT]
+2026-05-04 00:27:07,029 [INFO] flwr: Using initial global parameters provided by strategy
+2026-05-04 00:27:07,030 [INFO] flwr: Starting evaluation of initial global parameters
+2026-05-04 00:27:07,030 [INFO] flwr: Evaluation returned no results (`None`)
+2026-05-04 00:27:07,030 [INFO] flwr: 
+2026-05-04 00:27:07,031 [INFO] flwr: [ROUND 1]
+2026-05-04 00:27:27,810 [INFO] FL-System: TFLite model loaded/updated from emotion_model.tflite
+2026-05-04 00:28:45,880 [INFO] FL-System: Received weight sync request from flutter_app_test_01 (25 samples)
+2026-05-04 00:28:45,880 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_numpy_client() is deprecated. 
+	Instead, use `flwr.client.start_client()` by ensuring you first call the `.to_client()` method as shown below: 
+	flwr.client.start_client(
+		server_address='<IP>:<PORT>',
+		client=FlowerClient().to_client(), # <-- where FlowerClient is of type flwr.client.NumPyClient object
+	)
+	Using `start_numpy_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:28:45,881 [WARNING] flwr: DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-05-04 00:28:45,881 [DEBUG] flwr: Using InMemoryObjectStore
+2026-05-04 00:28:45,882 [DEBUG] flwr: Opened insecure gRPC connection (no certificates were passed)
+2026-05-04 00:28:45,905 [DEBUG] flwr: ChannelConnectivity.IDLE
+2026-05-04 00:28:45,907 [DEBUG] flwr: ChannelConnectivity.READY
+2026-05-04 00:28:45,908 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:46,037 [INFO] flwr: 
+2026-05-04 00:28:46,038 [INFO] flwr: Received: train message 348fbfb4-c320-40cc-b88c-aa4eeefc0abf
+2026-05-04 00:28:46,053 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:28:46,054 [INFO] flwr: Sent reply
+2026-05-04 00:28:46,056 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:28:46,057 [WARNING] flwr: No fit_metrics_aggregation_fn provided
+2026-05-04 00:28:46,058 [INFO] FL-System: Round 1 completed! Aggregating weights...
+2026-05-04 00:28:46,669 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:28:46,670 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:46,674 [INFO] flwr: 
+2026-05-04 00:28:46,674 [INFO] flwr: Received: evaluate message 3bea633b-bf87-45fa-b9f3-b99365c24bae
+2026-05-04 00:28:46,675 [INFO] flwr: Sent reply
+2026-05-04 00:28:46,677 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:28:46,677 [WARNING] flwr: No evaluate_metrics_aggregation_fn provided
+2026-05-04 00:28:46,679 [INFO] FL-System: METRICS | Round 1 | Accuracy: 0.8900 | Clients: 1
+2026-05-04 00:28:46,679 [INFO] flwr: 
+2026-05-04 00:28:46,679 [INFO] flwr: [ROUND 2]
+2026-05-04 00:28:46,680 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:46,682 [INFO] flwr: 
+2026-05-04 00:28:46,682 [INFO] flwr: Received: train message 8e70c070-9713-40e2-80f9-c1821f40840d
+2026-05-04 00:28:46,682 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:28:46,683 [INFO] flwr: Sent reply
+2026-05-04 00:28:46,684 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:28:46,685 [INFO] FL-System: Round 2 completed! Aggregating weights...
+2026-05-04 00:28:47,335 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_1' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:28:47,336 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:47,337 [INFO] flwr: 
+2026-05-04 00:28:47,337 [INFO] flwr: Received: evaluate message 264a8f59-7d45-4e54-bf1f-7fb7e54fc78e
+2026-05-04 00:28:47,338 [INFO] flwr: Sent reply
+2026-05-04 00:28:47,340 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:28:47,341 [INFO] FL-System: METRICS | Round 2 | Accuracy: 0.8900 | Clients: 1
+2026-05-04 00:28:47,341 [INFO] flwr: 
+2026-05-04 00:28:47,343 [INFO] flwr: [ROUND 3]
+2026-05-04 00:28:47,343 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:47,346 [INFO] flwr: 
+2026-05-04 00:28:47,346 [INFO] flwr: Received: train message 962c1459-0e53-4699-bb09-bb15da815806
+2026-05-04 00:28:47,347 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:28:47,348 [INFO] flwr: Sent reply
+2026-05-04 00:28:47,349 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:28:47,349 [INFO] FL-System: Round 3 completed! Aggregating weights...
+2026-05-04 00:28:47,940 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_2' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:28:47,941 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:47,943 [INFO] flwr: 
+2026-05-04 00:28:47,943 [INFO] flwr: Received: evaluate message 5caf0ae9-5137-400e-9a69-7f8221aa25d9
+2026-05-04 00:28:47,944 [INFO] flwr: Sent reply
+2026-05-04 00:28:47,945 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:28:47,947 [INFO] FL-System: METRICS | Round 3 | Accuracy: 0.8900 | Clients: 1
+2026-05-04 00:28:47,947 [INFO] flwr: 
+2026-05-04 00:28:47,948 [INFO] flwr: [ROUND 4]
+2026-05-04 00:28:47,948 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:47,949 [INFO] flwr: 
+2026-05-04 00:28:47,949 [INFO] flwr: Received: train message 1d00be86-577e-489f-8a3e-33fe0b99b0e6
+2026-05-04 00:28:47,949 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:28:47,950 [INFO] flwr: Sent reply
+2026-05-04 00:28:47,951 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:28:47,951 [INFO] FL-System: Round 4 completed! Aggregating weights...
+2026-05-04 00:28:48,786 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_3' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:28:48,786 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:48,790 [INFO] flwr: 
+2026-05-04 00:28:48,790 [INFO] flwr: Received: evaluate message 86e62517-5ca6-4462-b688-499e69cd73cf
+2026-05-04 00:28:48,791 [INFO] flwr: Sent reply
+2026-05-04 00:28:48,793 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:28:48,795 [INFO] FL-System: METRICS | Round 4 | Accuracy: 0.8900 | Clients: 1
+2026-05-04 00:28:48,796 [INFO] flwr: 
+2026-05-04 00:28:48,796 [INFO] flwr: [ROUND 5]
+2026-05-04 00:28:48,797 [INFO] flwr: configure_fit: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:48,799 [INFO] flwr: 
+2026-05-04 00:28:48,799 [INFO] flwr: Received: train message d22b08d7-a98b-439b-8c71-c6225b149170
+2026-05-04 00:28:48,800 [INFO] FL-System: ProxyClient: Delivering weights from mobile app to FL server.
+2026-05-04 00:28:48,802 [INFO] flwr: Sent reply
+2026-05-04 00:28:48,803 [INFO] flwr: aggregate_fit: received 1 results and 0 failures
+2026-05-04 00:28:48,804 [INFO] FL-System: Round 5 completed! Aggregating weights...
+2026-05-04 00:28:50,318 [ERROR] FL-System: Error during model aggregation or conversion: You called `set_weights(weights)` on layer 'sequential_4' with a weight list of length 2, but the layer was expecting 264 weights.
+2026-05-04 00:28:50,319 [INFO] flwr: configure_evaluate: strategy sampled 1 clients (out of 1)
+2026-05-04 00:28:50,323 [INFO] flwr: 
+2026-05-04 00:28:50,323 [INFO] flwr: Received: evaluate message 838d210b-a8ea-4f51-8299-795542efa2c3
+2026-05-04 00:28:50,325 [INFO] flwr: Sent reply
+2026-05-04 00:28:50,327 [INFO] flwr: aggregate_evaluate: received 1 results and 0 failures
+2026-05-04 00:28:50,329 [INFO] FL-System: METRICS | Round 5 | Accuracy: 0.8900 | Clients: 1
+2026-05-04 00:28:50,330 [INFO] flwr: 
+2026-05-04 00:28:50,331 [INFO] flwr: [SUMMARY]
+2026-05-04 00:28:50,331 [INFO] flwr: Run finished 5 round(s) in 103.30s
+2026-05-04 00:28:50,332 [INFO] flwr: 	History (loss, distributed):
+2026-05-04 00:28:50,333 [INFO] flwr: 		round 1: 0.0
+2026-05-04 00:28:50,335 [INFO] flwr: 		round 2: 0.0
+2026-05-04 00:28:50,335 [INFO] flwr: 		round 3: 0.0
+2026-05-04 00:28:50,336 [INFO] flwr: 		round 4: 0.0
+2026-05-04 00:28:50,337 [INFO] flwr: 		round 5: 0.0
+2026-05-04 00:28:50,338 [INFO] flwr: 
+2026-05-04 00:28:50,341 [INFO] flwr: 
+2026-05-04 00:28:50,343 [INFO] flwr: Received: reconnect message 34b3649a-62f4-402e-8a9d-593706df37a4
+2026-05-04 00:28:50,346 [DEBUG] flwr: gRPC channel closed
+2026-05-04 00:28:50,346 [INFO] flwr: Disconnect and shut down
