@@ -17,7 +17,7 @@ SERVER_ADDRESS = os.getenv("SERVER_ADDRESS", "127.0.0.1:8080")
 
 # Paths shared between API and Flower Server
 TFLITE_MODEL_PATH = os.getenv("TFLITE_MODEL_PATH", "emotion_model.tflite")
-EMOTION_LABELS = ["angry", "disgusted", "fearful", "happy", "neutral", "sad", "surprised"]
+EMOTION_LABELS = ["anger", "fear", "sad"]
 IMAGE_SIZE = (224, 224)
 
 # Ensure directories exist
